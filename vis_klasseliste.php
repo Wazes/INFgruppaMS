@@ -3,8 +3,7 @@
 	$lines = file('D:\\Sites\\home.hbv.no\\phptemp\\885664-student.txt');
 	$lines = preg_grep("/" . $var4 . "/", $lines);
 
-	foreach($lines as $var1);
-	{
-		echo "$name<br>";
+	foreach ($lines as $key => $value) 
+	{ 
+		echo $value . '<br>'; 
 	}
-?>
